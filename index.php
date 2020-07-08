@@ -106,8 +106,41 @@
       </div>
     </div>
 
-    <div class="container-fluid bg-dark">
-      rodapé
+    <div class="container-fluid bg-secondary">
+      <div class="row">
+        <div class="col-sm-12 col-lg-6">
+          <ul class="list-group list-group-flush bg-secondary">
+            <li class="list-group-item bg-secondary">
+              <a href="#" class="text-white">Home</a>
+            </li>
+            <li class="list-group-item bg-secondary text-white">
+              <a href="#" class="text-white">Carros</a>
+            </li>
+            <li class="list-group-item bg-secondary text-white">
+              <a href="#" class="text-white">Contato</a>
+            </li>
+            <li class="list-group-item bg-secondary text-white">
+              <a href="#" class="text-white">Trabalhe conosco</a>
+            </li>
+            <li class="list-group-item bg-secondary text-white">
+              <a href="#" class="text-white">Sobre</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-lg-3">
+          <p>© 2020 Senac Cars S.A - Todos os direitos reservados.<p>
+          <br>
+          veja no mapa
+        </div>
+        <div class="col-sm-12 col-lg-3">
+          <p>© 2020 Senac Cars S.A - Todos os direitos reservados.<p>
+          <br>
+          veja no mapa
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-dark text-white fixed-bottom text-center pt-3">
+      <p>© 2020 Senac Cars S.A - Todos os direitos reservados.</p>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

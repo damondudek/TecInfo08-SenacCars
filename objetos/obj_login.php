@@ -13,8 +13,6 @@
 
     $senha_criptografada = md5($senha);
 
-    echo $senha, " - ", $senha_criptografada;
-
     $sql = "SELECT id, nome FROM usuario
                 WHERE email = '$email'
                 AND senha = '$senha_criptografada'";

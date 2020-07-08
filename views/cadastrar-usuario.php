@@ -11,27 +11,32 @@
 <body>
     <div class="container mt-5 w-50 bg-dark text-white p-5">
         <?php
-            require_once "../objetos/obj_login.php";
+            require_once "../objetos/obj_cadastrar_usuario.php";
         ?>
 
         <form method="post">
             <div class="form-group">
-                <label for="email-usuario">E-mail</label>
-                <input type="email" name="email-usuario" class="form-control" id="email-usuario">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" class="form-control" id="nome">
             </div>
             <div class="form-group">
-                <label for="senha-usuario">Senha</label>
-                <input type="password" name="senha-usuario" class="form-control" id="senha-usuario">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" class="form-control" id="sobrenome">
             </div>
-            <button type="submit" class="btn btn-primary">Entrar</button>
+            <div class="form-group">
+                <label for="data-nascimento">Data de Nascimento</label>
+                <input type="text" maxlength="10" name="data-nascimento" class="form-control" id="data-nascimento" placeholder="DD/MM/AAAA">
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" class="form-control" id="senha">
+            </div>
+            <button type="submit" class="btn btn-primary">Cadatrar</button>
         </form>
-
-        <div class="text-center mt-4">
-            <p>
-                Não possui cadastro ainda?<br>
-                <a href="./cadastrar-usuario.php">clique aqui</a>
-            </p>
-        </div>
 
     </div>
 
